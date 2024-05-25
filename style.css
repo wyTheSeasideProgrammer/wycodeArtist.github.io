@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: steelblue; */
+    background: linear-gradient(45deg, purple /*#4682b4*/, indigo /*#22a2b4*/);/* #46b2b4); */
+    /* background-image: url(./images/koipond.jpg); */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 90%;
+    /* justify-content: space-around; */
+    max-width: 440px;
+    color: azure;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.card img {
+    width: 170px;
+    border-radius: 50%;
+}
+
+.card h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px auto;
+    
+}
+
+.country, .university {
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+.country i, .university i {
+    margin-right: 10px;
+}
+
+.job {
+    font-size: 25px;
+    margin: 25px auto 5px;
+}
+
+.techstack {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.btn-github, .btn-linkedin {
+    margin-top: 50px;
+}
+
+.btn-email, .btn-download {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    background: azure;
+    color: indigo /*steelblue*/;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 10px 0 10px;
+}
+
+.btn-email:hover {
+    background-color: lightgray;
+}
+
+button {
+    margin: 30px 20px;
+    border-radius: 50%;
+    background-color: azure;
+    border: none;
+    text-decoration: none;
+}
+
+button i {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+button i:active {
+    color:slategray;
+}
+
+button:hover {
+    background-color: lightgray;
+}
