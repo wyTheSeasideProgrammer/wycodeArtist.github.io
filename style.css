@@ -74,6 +74,7 @@
 
 .btn-github, .btn-linkedin {
     margin-top: 50px;
+    text-decoration: none;
 }
 
 .btn-email, .btn-download {
